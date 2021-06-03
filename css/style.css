@@ -1,0 +1,13 @@
+body {
+    background-image: url(img/fundo.jpg);
+    background-size: 200px;
+    background-repeat: repeat;
+    font-family: papyrus;
+    font-weight: bolder;
+}
+
+.body-msg {
+    background-image: url(img/papel.png);
+    background-position: center;
+    background-size: auto;
+}
