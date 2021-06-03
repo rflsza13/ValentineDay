@@ -2,7 +2,7 @@ body {
     background-image: url(img/fundo.jpg);
     background-size: 200px;
     background-repeat: repeat;
-    font-family: papyrus;
+    font-family: papyrus, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
 
