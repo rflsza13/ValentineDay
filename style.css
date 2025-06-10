@@ -1,25 +1,25 @@
 #envelope {
   position: relative;
-  width: 60%;
-  max-width: 579px;
-  height: 80%;
+  width: 90%;
+  max-width: 867px;
+  height: 170%;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-left: auto;
   margin-right: auto;
-  top: 100px;
+  /* top: 150px; */
   background-color: #d9534f; /* Warm romantic red */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .titulo {
   text-align: center;
+  font-size: 2.7em;
 }
 
 span {
   color: #ff6f61;
   top: 10%;
-  font-size: large;
   text-decoration: line-through;
 }
 
@@ -29,28 +29,29 @@ span {
 }
 
 .flap {
-  border-left: 290px solid transparent;
-  border-right: 290px solid transparent;
-  border-bottom: 140px solid transparent;
+  border-left: 434px solid transparent;
+  border-right: 434px solid transparent;
+  border-bottom: 300px solid transparent;
   /* a little smaller */
-  border-top: 155px solid #d9534f; /* Same romantic red */
+  border-top: 340px solid #d9534f; /* Same romantic red */
   /* a little larger */
   transform-origin: top;
   pointer-events: none;
 }
 
 .pocket {
-  border-left: 290px solid #f5a3a2; /* Soft pinkish red for the pocket */
-  border-right: 290px solid #f5a3a2;
-  border-bottom: 153px solid #ff6f61; /* Lighter romantic red */
-  border-top: 153px solid transparent;
+  border-left: 434px solid #f5a3a2; /* Soft pinkish red for the pocket */
+  border-right: 434px solid #f5a3a2;
+  border-bottom: 323px solid #ff6f61; /* Lighter romantic red */
+  border-top: 323px solid transparent;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
 
 .letter {
   position: relative;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #ffe6e6;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -80,17 +81,17 @@ span {
 }
 
 .words.line1 {
-  top: 10%;
+  top: 5%;
   font-size: 0.5rem;
   width: fit-content;
   height: 7%;
-  font-size: 0.8rem;
+  font-size: 1.7rem;
 }
 
 .words.line2 {
-  top: 25%;
+  top: 15%;
   text-align: center;
-  font-size: 1.0rem;
+  font-size: 1.98rem;
 }
 
 .open .flap {
@@ -112,7 +113,7 @@ span {
 }
 
 .open .letter {
-  transform: translateY(-200px);
+  transform: translateY(-500px);
   transition: transform 0.4s 0.6s ease, z-index 0.6s;
   z-index: 2;
 }
@@ -237,16 +238,4 @@ body {
 
 .reset {
   text-align: center;
-}
-
-@media (max-width: 426px) {
-  
-  #envelope {
-    position: relative;
-    width: 90%;
-    max-width: 90%;
-  }
-  .titulo {
-    text-align: end;
-  }
 }
