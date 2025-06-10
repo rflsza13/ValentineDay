@@ -7,7 +7,7 @@
   border-bottom-right-radius: 6px;
   margin-left: auto;
   margin-right: auto;
-  /* top: 150px; */
+  top: 100px;
   background-color: #d9534f; /* Warm romantic red */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -73,16 +73,14 @@ span {
 
 .words {
   position: absolute;
-  left: 10%;
-  width: 80%;
-  /* height: 14%; */
-  padding: 5px;
+  left: 5%;
+  width: 90%;
+  /* padding: 5px; */
   background-color: #ffe6e6; /* Light romantic tone */
 }
 
 .words.line1 {
   top: 5%;
-  font-size: 0.5rem;
   width: fit-content;
   height: 7%;
   font-size: 1.7rem;
@@ -91,7 +89,7 @@ span {
 .words.line2 {
   top: 15%;
   text-align: center;
-  font-size: 1.98rem;
+  font-size: 2.12rem;
 }
 
 .open .flap {
